@@ -3,9 +3,6 @@ body{
 	
 }
 
-.container-fluid
-{
-	padding:0 !important;}
 
 #ngoTopBar
 {
@@ -476,20 +473,10 @@ font-family: 'Raleway', sans-serif;
 
 /** Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) { 
-	#sideSlider
-{
-background-size:100% 100%;
-
- }  }
 
 
 @media (max-width: 1200px) {
-#sideSlider
-{
-background-size:   auto 100%;
 
- }
  
     }
 

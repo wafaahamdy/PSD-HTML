@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Styles for wafaa bar on my work */
+
+
+.bar-txt
+	{padding-top:10px;
+	font-size:1.2vw; 
+	 }
+
+
+
+body {
+	/* padding-top: 50px;  to adjust content for wafaa bar */
+	 
+	  }
+
+ /* to adjust content for wafaa bar */
+#wafaa_bar{
+    background:#172838;
+	box-shadow: 2px 2px 2px #f7eff7;
+	padding-top:5px;
+	color:#fff;
+	z-index:2000;
+	
+	}
+	
+#wafaa_bar.dark{
+    background:#172838;
+	box-shadow: 2px 2px 2px #f7eff7;
+	color:#fff;
+
+	}
+
+#wafaa_bar.light{
+    background:#f7f1f2;
+	box-shadow: 2px 2px 2px #f7eff7;
+	color:#333;
+	}	
+	
+#wafaa_bar.bar_opecity
+	{
+		background: rgba(23,40,56,.7);
+		color:#fff;
+		 }
+
+#wafaa_bar.bar_opecity .fa{
+	color:#f76a78;
+ }
+
+
+#wafaa_bar   .fa{
+	color:#da4453;
+font-size:1.5em;}
+
+#wafaa_bar a{
+	color:#da4453;
+}
+
+
+#wafaa_footer {
+	text-align:center;
+	padding:20px;
+	background-color:#000;
+	color:#FFF}
+	
+#wafaa_footer .small
+{color:#666 ;
+padding-top:10px;
+}
+
+#wafaa_footer ul {
+	list-style:none;} 
+
+#wafaa_footer li {
+	display:inline;} 
+	
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and ( max-width : 992px) {
+body {
+	/*  padding-top: 90px; to adjust content for wafaa bar */
+	 
+	  }
+
+.bar-txt
+	{font-size:14px; 
+	 }
+	   
+	    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+.bar-txt
+	{font-size:16px;; 
+	 }
+	 
+body {
+/*	 padding-top: 120px;  to adjust content for wafaa bar */
+	 
+	  }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        	  #wafaa_bar   .fa{
+
+font-size:1em;}
+
+    }

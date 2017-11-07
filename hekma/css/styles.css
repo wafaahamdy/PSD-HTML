@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{padding-top:71px;}
+
+.navbar 
+{height:70px;
+padding-top:10px;
+padding-bottom:10px;
+border-bottom:#F0F0F0 solid 1px;
+background:#FFF;
+}
+ul.nav   a:hover
+{ background-color:transparent;}
+
+.navbar-brand img
+{max-height:40px;
+
+
+}
+
+.menu 
+{margin-top:10px;
+
+}
+
+
+.menu .btn 
+{margin-top:5px;
+margin-bottom:5px}
+
+
+/****** static top add ****/
+#ad
+{
+	
+	overflow: auto;
+	background-color:#b2e3f4;
+	width:100%;
+	padding-top:40px;
+	padding-bottom:40px;
+	margin-top:0px;
+	
+}
+
+#ad .caption {
+ 
+  float:right;
+  width:40%;
+  margin-right:5%;
+  
+    text-align: center;
+ 
+
+  font-size: 1em;
+  font-weight: 300;
+  color: #333;
+}
+
+#ad .caption h1 {
+
+  color:#333;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.caption .btn-start {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding:14px;
+  background-color:#1c8a93;
+  border: 1px solid #1c8a93;
+  border-radius: 4px;
+  margin-top: 40px;
+   box-shadow: 2px 2px 2px #888888;
+}
+
+.caption .btn-start:hover {
+  color: #fff;
+  background-color:#37b7ae;
+}
+
+
+#ad .pic
+{float:left;
+text-align:center;}
+
+/****** section *****/
+
+.head {width:50%;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+margin-top:80px;
+margin-bottom:40px;
+
+}
+
+.head h1{
+	margin-bottom:20px;
+	font-weight:600;
+	font-size:2em;
+width:70%;
+margin-left:auto;
+margin-right:auto;
+	}
+.head p{
+font-size:1.2em;	
+	}
+
+.sideimgs
+{
+	display:block;
+	margin-top:30px;}
+
+.sideimgs > div
+{margin-bottom:30px;
+}
+	
+.img-shadow
+{
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}	
+
+
+
+#himg1 , #himg2, #himg3 , #himg4
+{
+position:absolute;
+}
+
+
+
+
+/*********************/
+.fasel
+{margin-top:50px;
+margin-bottom:100px;
+border-bottom:#CCC 1px solid;
+height:50px;
+}
+
+.row{margin-bottom:40px;}
+
+#s2img
+{width:70%;
+float:right}
+
+#s2img2
+{width:60%;
+margin-left:auto;
+margin-right:auto;
+}
+
+.card {
+ background: #fff;
+ text-align:center;
+ border-radius: 2px;
+ display: inline-block;
+ margin: 1rem;
+ position: relative;
+ box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card p{padding:10px;
+color:#666}
+
+.item
+{	padding-top:90px;}
+
+.icon
+{float:left;
+  width: 70px;
+  height: 70px;
+  margin-right: 12px;
+  border-radius: 60px;
+  
+  background-position: 59% 50%;
+  background-size: 26px;
+  background-repeat: no-repeat;
+  box-shadow: 3px 5px 8px 0 rgba(0, 0, 0, .2);}
+  
+ .item h2
+  {font-size:1.5em;
+  font-weight:bold;}
+  
+#market
+{background-image: url(../images/marketing.png);
+  }
+ 
+ #fund
+{
+	background-image: url(../images/fundraising.png);
+  }
+ 
+ #prog
+{
+	background-image: url(../images/programs.png);
+  } 
+/**********************************/
+
+#sign
+{background-color:#1c8a93;
+padding:80px 50px 80px 50px ;
+color:#FFF;
+}
+
+.foot-btn
+{
+	margin-top:50px;
+	padding:20px;
+	color:#1c8a93;
+	
+	
+	}
+		
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and ( max-width : 992px) {
+
+#ad
+{
+	
+	padding-top:20px;
+	padding-bottom:0px;
+	
+}
+
+
+#ad .caption {
+ 
+  float:none;
+  width:90%;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:20px;
+  z-index:0;
+}
+
+.caption .btn-start {
+    margin-top: 20px;
+
+}
+
+#ad .pic
+{float:none;}
+
+.pic img
+{display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+.head {
+	width:70%;
+
+margin-top:60px;
+
+
+}
+
+
+
+
+
+.item
+{	padding-top:30px;}
+	
+	}
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+	.navbar-brand img
+{ max-width:80%;
+}
+	
+	.navbar-toggle
+	{padding-top:15px;
+	font-weight:bold;
+	font-size:18px;}
+	
+.navbar-nav
+{background:#F8F8F8;
+text-align:center;
+z-index:10000;
+}
+	.navbar-nav li{
+		text-align:center;
+		vertical-align:middle;
+		border-bottom:#F0F0F0 1px dotted;
+	}
+	.menu 
+{margin-top:-10px;
+}
+
+.head h1{
+
+	font-weight:500;
+	font-size:1.5em;
+width:90%;
+
+	}
+.head p{
+font-size:1em;	
+	}
+
+
+.fasel
+{margin-top:30px;
+margin-bottom:70px;
+border-bottom:#CCC 1px solid;
+height:40px;
+}
+
+	
+#s2img2
+{width:80%;
+}	
+
+	}
+	
+	    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+.head {
+	width:90%;
+}
+
+
+
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+   #himg1 ,#himg2 ,#himg3 ,#himg4 
+{
+	display:none;}
+
+
+
+    }
+	

@@ -3,6 +3,10 @@ jQuery(function($) {
 	//Preloader
 	$(window).load(function(){
 		adjust_imgs () ;
+		if ($( window ).width() < 768)
+  {
+  	
+		adjust_animation()}
 	});
 
 	
@@ -38,6 +42,12 @@ jQuery(function($) {
 		
 		}
 
+
+function adjust_animation()
+{
+	
+	$('.flipInY').attr ("data-wow-delay" ,"1s") ;
+	}
 	
 });
 

@@ -392,6 +392,7 @@ direction:rtl;
 
 #section5 .leftcol ul li 
 { padding:10px;
+ white-space: nowrap;
 }
  #section5 .leftcol ul li .fa
  {
@@ -500,7 +501,7 @@ background-size:  100% auto ;
   }
   
 /** Medium devices (tablets, 768px and up)*/
-@media screen and (max-width: 767px) { 
+@media (max-width: 767px) { 
 
 #sideSlider
 { min-height:400px;
